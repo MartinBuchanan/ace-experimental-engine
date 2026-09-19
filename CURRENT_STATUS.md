@@ -4,15 +4,15 @@ Last updated: 2026-09-19
 
 ## Released capability
 
-A validated private development baseline supports controlled, evidence-preserving experimentation. Public documentation intentionally omits private implementation and protected research material.
+A validated private development baseline supports controlled, evidence-preserving experimentation. The live ACE Studio 2.1.8 read-only interface census is complete without changing the released engine certification boundary.
 
 ## Current reassessment work
 
-ACE Studio's expanded official CLI/MCP interface has triggered an architecture and capability reassessment. Existing private validation remains valuable evidence and is not treated as abandoned or failed.
+Live ACE Studio 2.1.8 read-only discovery is complete. The current CLI/MCP surface is materially broader than the historical baseline, with evidence states kept distinct and version-bound.
 
 ## Planned work
 
-The next public-facing assessment phase is a structured capability census that records Documented, Exposed, Tested and Verified separately. Later decisions will classify components as Retain, Adapt, Replace or Retire.
+Controlled reversible mutation verification is the next stage. No Retain, Adapt, Replace or Retire engine assessment has yet been made.
 
 ## Evidence language
 
