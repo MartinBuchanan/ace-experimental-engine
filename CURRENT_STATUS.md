@@ -4,15 +4,15 @@ Last updated: 2026-09-19
 
 ## Released capability
 
-The project has an existing validated private development baseline for controlled, evidence-preserving experimentation. Public documentation intentionally excludes the private engine source and protected research material.
+A validated private development baseline supports controlled, evidence-preserving experimentation. Public documentation intentionally omits private implementation and protected research material.
 
 ## Current reassessment work
 
-ACE Studio's expanded official CLI/MCP interface has triggered an architecture and capability reassessment. Earlier private validation remains useful evidence; it is not treated as abandoned, failed or valueless.
+ACE Studio's expanded official CLI/MCP interface has triggered an architecture and capability reassessment. Existing private validation remains valuable evidence and is not treated as abandoned or failed.
 
 ## Planned work
 
-The next public-facing assessment phase is a structured capability census. It will record Documented, Exposed, Tested and Verified as separate evidence levels. Later architectural decisions will classify existing components as Retain, Adapt, Replace or Retire.
+The next public-facing assessment phase is a structured capability census that records Documented, Exposed, Tested and Verified separately. Later decisions will classify components as Retain, Adapt, Replace or Retire.
 
 ## Evidence language
 
