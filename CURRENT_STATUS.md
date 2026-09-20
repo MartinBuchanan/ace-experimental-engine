@@ -8,7 +8,7 @@ A validated private development baseline supports controlled, evidence-preservin
 
 ## Current reassessment work
 
-CLI 0.17.0 has verified one existing-clip position round trip and one existing-track rename round trip with stable identities and exact readable-state restoration. These results are limited to the named fixtures; MCP mutation was not tested.
+Verified current-version CLI 0.17.0 control now includes bounded round trips for third-party VST parameters, existing-note pitch, existing Sing-note lyric content, one clip arrangement position, and one track rename. Each result is limited to its named fixture and operation; MCP mutation was not tested.
 
 ## Planned work
 
