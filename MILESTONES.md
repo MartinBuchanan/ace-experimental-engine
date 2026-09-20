@@ -4,6 +4,10 @@ This index lists meaningful public milestones in reverse chronological order. Ro
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — [ACE Studio 2.1.8 CLI-controlled instrument and vocal WAV acquisition demonstrated](milestones/2026-09-20-ace-studio-2-1-8-cli-controlled-instrument-and-vocal-wav-acquisition-dem.md)
+
+These bounded results demonstrate agent-controlled acquisition of instrument and vocal audio with authored-state preservation. The shared 824-frame length excess remains unresolved; alignment and sample-accurate boundaries are not established, and no trimming or compensation rule follows.
+
 ## 2026-09-20 — [ACE Studio 2.1.8 transport seek, play and stop verified](milestones/2026-09-20-ace-studio-2-1-8-transport-seek-play-and-stop-verified.md)
 
 This establishes bounded agent control over seek, playback start and playback stop while preserving the tested project and sound-source state and separating normal playback from synthesis-interrupted behavior.

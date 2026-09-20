@@ -4,6 +4,10 @@ Concise public changes are listed newest first. Detailed context belongs in the 
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — ACE Studio 2.1.8 CLI-controlled instrument and vocal WAV acquisition demonstrated
+
+- ACE Studio 2.1.8 with CLI 0.17.0 produced valid non-silent instrument and vocal WAV output in two bounded tests. Important timing limitation: both tested 44.1 kHz exports contained exactly 824 frames beyond their nominal requested durations, equivalent to 18.684807 ms. The cause remains unresolved. This is a file-length excess, not an established alignment offset, and does not justify trimming. Sample-accurate export is not claimed. The original instrument canary remains STOPPED under its frozen one-frame duration criterion; this milestone demonstrates acquisition, not full canary acceptance.
+
 ## 2026-09-20 — ACE Studio 2.1.8 transport seek, play and stop verified
 
 - The ACE Experimental Engine verified three narrow transport operations in ACE Studio 2.1.8 through CLI 0.17.0: one stopped seek with exact restoration, one playback start on an isolated instrument fixture with normal playing state and advancing position, and one Stop with stable stopped readback. These findings do not establish complete transport support.
