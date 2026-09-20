@@ -4,6 +4,10 @@ This index lists meaningful public milestones in reverse chronological order. Ro
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — [verify note and lyric editing](milestones/2026-09-20-verify-note-and-lyric-editing.md)
+
+This demonstrates bounded agent control over both note geometry content and sung lyric content while preserving note identity and restoring the original project state exactly at every readable layer.
+
 ## 2026-09-20 — [ACE Studio 2.1.8 third-party VST parameter control verified](milestones/2026-09-20-ace-studio-2-1-8-third-party-vst-parameter-control-verified.md)
 
 This proves one controlled third-party effect parameter can be changed, independently read back and restored through the supported CLI while preserving surrounding project state.

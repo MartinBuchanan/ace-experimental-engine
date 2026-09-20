@@ -4,6 +4,10 @@ Concise public changes are listed newest first. Detailed context belongs in the 
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — verify note and lyric editing
+
+- The ACE Experimental Engine verified two narrow agent-controlled musical-content operations in ACE Studio 2.1.8 through CLI 0.17.0: one existing note pitch mutation and one existing Sing-note lyric mutation. Each change was independently read back and exactly restored. These fixture-bound tests do not establish universal MIDI, lyric, vocal or MCP mutation support.
+
 ## 2026-09-20 — ACE Studio 2.1.8 third-party VST parameter control verified
 
 - The ACE Experimental Engine verified agent-controlled parameter mutation and restoration for one third-party VST effect under ACE Studio 2.1.8 using CLI 0.17.0. This is a narrow plugin- and operation-specific result, not a general VST compatibility claim.
