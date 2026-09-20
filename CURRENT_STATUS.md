@@ -8,11 +8,11 @@ A validated private development baseline supports controlled, evidence-preservin
 
 ## Current reassessment work
 
-CLI 0.17.0 has now verified one existing-note pitch round trip and one existing Sing-note lyric round trip with exact restoration. The findings are limited to the named one-note test fixtures; MCP mutation was not tested.
+CLI 0.17.0 has verified one existing-clip position round trip and one existing-track rename round trip with stable identities and exact readable-state restoration. These results are limited to the named fixtures; MCP mutation was not tested.
 
 ## Planned work
 
-The next bounded content-editing test is one existing-note duration resize and exact restoration. Multi-note editing, broader lyric and phoneme operations, persistence and general MCP mutation remain unverified.
+The next bounded structural test is one stopped-transport position seek and exact restoration without playback. Broader arrangement, track, transport and MCP mutation support remain unverified.
 
 ## Evidence language
 
