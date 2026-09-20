@@ -16,8 +16,12 @@ This table will record public capability results after the structured census beg
 | General MIDI, lyric and vocal editing | Yes | Yes | Yes | Yes | No | No | Multiple notes, other edits, languages, phoneme controls, persistence and other fixtures remain outside the verified result. |
 | MCP mutation parity | Yes | Yes | Yes | Yes | No | No | The relevant MCP operation families are exposed, but neither clip movement nor track rename was dispatched through MCP. |
 | Read-only operational capabilities | Yes | Yes | Yes | Yes | Yes | No | 26 normalized capabilities were tested; 8 were conservatively verified individually. |
+| Remaining transport control | Yes | Yes | Yes | Yes | No | No | Pause, toggle, loop, scrub, recording, other playback topologies, persistence and complete transport control remain unverified. |
 | State-changing capabilities | Yes | Yes | Yes | Yes | No | No | Other state-changing operations remain outside this verified result. |
+| Stopped transport seek and restoration | Yes | Yes | Yes | Yes | Yes | Yes | One stopped CLI seek moved from tick 0 to tick 480 and exactly back to tick 0; MCP mutation was not tested. |
 | Third-party VST effect parameter control | Yes | Yes | Yes | Yes | Yes | Yes | One SSL effect parameter was mutated and exactly restored through CLI; MCP mutation was not tested. |
+| Transport playback start | Yes | Yes | Yes | Yes | Yes | Yes | One CLI Play on an isolated instrument-plugin fixture produced normal playing state and advancing position; MCP mutation was not tested. |
+| Transport stop | Yes | Yes | Yes | Yes | Yes | Yes | One CLI Stop after proven playback produced two stable stopped readbacks; MCP mutation was not tested. |
 <!-- capability-results:end -->
 
 No census execution has been performed as part of the publication-workflow milestone.

@@ -4,6 +4,10 @@ Concise public changes are listed newest first. Detailed context belongs in the 
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — ACE Studio 2.1.8 transport seek, play and stop verified
+
+- The ACE Experimental Engine verified three narrow transport operations in ACE Studio 2.1.8 through CLI 0.17.0: one stopped seek with exact restoration, one playback start on an isolated instrument fixture with normal playing state and advancing position, and one Stop with stable stopped readback. These findings do not establish complete transport support.
+
 ## 2026-09-20 — ACE Studio 2.1.8 clip arrangement and track structure control verified
 
 - The ACE Experimental Engine verified two narrow structural operations in ACE Studio 2.1.8 through CLI 0.17.0: moving one existing clip by one quarter note and restoring it, and renaming one existing track and restoring it. Both tests retained stable object identity and reconciled the surrounding readable state; they do not establish general arrangement, track or MCP mutation control.

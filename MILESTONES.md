@@ -4,6 +4,10 @@ This index lists meaningful public milestones in reverse chronological order. Ro
 
 <!-- milestone-entries -->
 
+## 2026-09-20 — [ACE Studio 2.1.8 transport seek, play and stop verified](milestones/2026-09-20-ace-studio-2-1-8-transport-seek-play-and-stop-verified.md)
+
+This establishes bounded agent control over seek, playback start and playback stop while preserving the tested project and sound-source state and separating normal playback from synthesis-interrupted behavior.
+
 ## 2026-09-20 — [ACE Studio 2.1.8 clip arrangement and track structure control verified](milestones/2026-09-20-ace-studio-2-1-8-clip-arrangement-and-track-structure-control-verified.md)
 
 This establishes bounded agent control over one arrangement position and one project-structure label while preserving stable identities and restoring every tested readable structural fingerprint.
